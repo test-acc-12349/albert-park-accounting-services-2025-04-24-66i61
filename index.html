@@ -3,9 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Modern Landing Page</title>
+    <title>Enhanced Landing Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Albert Park Accounting Services</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
 </head>
 <body class="font-['Inter'] antialiased bg-white text-gray-900">
     <!-- Header -->
@@ -13,39 +27,49 @@
         <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex justify-between items-center h-16">
                 <div class="flex-shrink-0">
-                    <a href="#" class="text-xl font-bold">Logo</a>
+                    <a href="https://test-acc-12349.github.io/albert-park-accounting-services-2025-04-24-66i61" class="text-xl font-bold">Albert Park Accounting</a>
                 </div>
                 <div class="hidden md:flex items-center space-x-8">
-                    <a href="#" class="text-gray-600 hover:text-gray-900 transition-colors duration-200">Home</a>
-                    <a href="#" class="text-gray-600 hover:text-gray-900 transition-colors duration-200">Features</a>
-                    <a href="#" class="text-gray-600 hover:text-gray-900 transition-colors duration-200">About</a>
-                    <a href="#" class="bg-blue-600 text-white px-6 py-2 rounded-full hover:bg-blue-700 transition-all duration-200 transform hover:scale-105">Get Started</a>
+                    <a href="#home" class="text-gray-600 hover:text-gray-900 transition-colors duration-300">Home</a>
+                    <a href="#features" class="text-gray-600 hover:text-gray-900 transition-colors duration-300">Features</a>
+                    <a href="#about" class="text-gray-600 hover:text-gray-900 transition-colors duration-300">About</a>
+                    <a href="#testimonials" class="text-gray-600 hover:text-gray-900 transition-colors duration-300">Testimonials</a>
+                    <a href="#faq" class="text-gray-600 hover:text-gray-900 transition-colors duration-300">FAQ</a>
+                    <a href="#contact" class="bg-blue-600 text-white px-6 py-2 rounded-full hover:bg-blue-700 transition-all duration-300 transform hover:scale-105 hover:shadow-lg">Get Started</a>
                 </div>
-                <button class="md:hidden">
-                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
-                    </svg>
+                <button class="mobile-menu-button md:hidden" aria-label="Toggle menu">
+                    <i class="fas fa-bars text-2xl"></i>
                 </button>
+            </div>
+            <div class="mobile-menu hidden md:hidden">
+                <div class="px-2 pt-2 pb-3 space-y-1">
+                    <a href="#home" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50">Home</a>
+                    <a href="#features" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50">Features</a>
+                    <a href="#about" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50">About</a>
+                    <a href="#testimonials" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50">Testimonials</a>
+                    <a href="#faq" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50">FAQ</a>
+                    <a href="#contact" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50">Contact</a>
+                </div>
             </div>
         </nav>
     </header>
 
     <!-- Hero Section -->
-    <section class="pt-32 pb-24 bg-gradient-to-b from-blue-50 to-white">
+    <section id="home" class="pt-32 pb-24 bg-gradient-to-b from-blue-50 to-white">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center">
                 <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight text-gray-900 mb-8">
-                    Welcome to Our Modern Platform
+                    Expert Accounting Services for Modern Businesses
                 </h1>
                 <p class="text-xl text-gray-600 max-w-2xl mx-auto mb-12">
-                    Transform your digital experience with our cutting-edge solution.
+                    Transform your financial management with our comprehensive accounting solutions. Get real-time insights, expert guidance, and peace of mind for your business.
                 </p>
                 <div class="flex justify-center gap-4">
-                    <a href="#" class="px-8 py-4 bg-blue-600 text-white rounded-full font-medium hover:bg-blue-700 transition-all duration-200 transform hover:scale-105">
-                        Get Started
+                    <a href="#contact" class="px-8 py-4 bg-blue-600 text-white rounded-full font-medium hover:bg-blue-700 transition-all duration-300 transform hover:scale-105 hover:shadow-lg">
+                        Schedule Consultation
                     </a>
-                    <a href="#" class="px-8 py-4 bg-white text-gray-900 rounded-full font-medium border border-gray-200 hover:border-gray-400 transition-all duration-200">
-                        Learn More
+                    <a href="#features" class="px-8 py-4 bg-white text-gray-900 rounded-full font-medium border border-gray-200 hover:border-gray-400 transition-all duration-300 hover:bg-gray-50 hover:shadow-md">
+                        Explore Services
                     </a>
                 </div>
             </div>
@@ -53,35 +77,158 @@
     </section>
 
     <!-- Features Section -->
-    <section class="py-24 bg-white">
+    <section id="features" class="py-24 bg-white">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16">
-                <h2 class="text-3xl font-bold text-gray-900 mb-4">Powerful Features</h2>
-                <p class="text-xl text-gray-600">Everything you need to succeed</p>
+                <h2 class="text-3xl font-bold text-gray-900 mb-4">Comprehensive Accounting Solutions</h2>
+                <p class="text-xl text-gray-600">Tailored services to drive your business success</p>
             </div>
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                <!-- Feature Cards -->
-                <div class="bg-white p-8 rounded-2xl border border-gray-100 hover:shadow-lg transition-all duration-200">
+                <div class="bg-white p-8 rounded-2xl border border-gray-100 hover:shadow-lg transition-all duration-300 transform hover:scale-102">
                     <div class="w-12 h-12 bg-blue-100 rounded-xl flex items-center justify-center mb-6">
-                        <svg class="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/>
-                        </svg>
+                        <i class="fas fa-calculator text-blue-600"></i>
                     </div>
-                    <h3 class="text-xl font-semibold mb-4">Lightning Fast</h3>
-                    <p class="text-gray-600">Experience blazing fast performance with our optimized platform.</p>
+                    <h3 class="text-xl font-semibold mb-4">Tax Planning & Preparation</h3>
+                    <p class="text-gray-600">Strategic tax planning and accurate preparation to maximize your returns and ensure compliance.</p>
                 </div>
-                <!-- Repeat for other features -->
+                <div class="bg-white p-8 rounded-2xl border border-gray-100 hover:shadow-lg transition-all duration-300 transform hover:scale-102">
+                    <div class="w-12 h-12 bg-blue-100 rounded-xl flex items-center justify-center mb-6">
+                        <i class="fas fa-chart-line text-blue-600"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-4">Financial Analysis</h3>
+                    <p class="text-gray-600">Detailed financial reporting and analysis to help you make informed business decisions.</p>
+                </div>
+                <div class="bg-white p-8 rounded-2xl border border-gray-100 hover:shadow-lg transition-all duration-300 transform hover:scale-102">
+                    <div class="w-12 h-12 bg-blue-100 rounded-xl flex items-center justify-center mb-6">
+                        <i class="fas fa-book text-blue-600"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-4">Bookkeeping Services</h3>
+                    <p class="text-gray-600">Accurate and timely bookkeeping to keep your business finances organized and up-to-date.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-24 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold text-gray-900 mb-4">About Us</h2>
+            </div>
+            <div class="max-w-3xl mx-auto">
+                <p class="text-lg text-gray-700 mb-8">
+                    Founded in 2010, Albert Park Accounting Services has been providing expert financial guidance to businesses across Australia. Our journey began with a simple mission: to make professional accounting services accessible to businesses of all sizes. Over the years, we've grown to become a trusted partner for hundreds of successful enterprises.
+                </p>
+                <p class="text-lg text-gray-700">
+                    Our mission is to empower businesses through financial clarity and strategic guidance. We believe in building long-term relationships with our clients, understanding their unique needs, and delivering personalized solutions that drive growth. Our core values of integrity, excellence, and innovation guide everything we do.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold text-gray-900 mb-4">Client Success Stories</h2>
+                <p class="text-xl text-gray-600">What our clients say about us</p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="bg-gray-50 p-8 rounded-2xl hover:shadow-lg transition-all duration-300">
+                    <div class="flex text-yellow-400 mb-4">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="text-gray-700 mb-4">"Albert Park Accounting transformed our financial management. Their tax planning strategies saved us over $50,000 last year. The team is incredibly responsive and professional."</p>
+                    <p class="font-semibold">Sarah Johnson</p>
+                    <p class="text-sm text-gray-600">CEO, TechStart Solutions</p>
+                </div>
+                <div class="bg-gray-50 p-8 rounded-2xl hover:shadow-lg transition-all duration-300">
+                    <div class="flex text-yellow-400 mb-4">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="text-gray-700 mb-4">"The bookkeeping service has been a game-changer for our small business. We now have clear financial insights and more time to focus on growth."</p>
+                    <p class="font-semibold">Michael Chen</p>
+                    <p class="text-sm text-gray-600">Owner, Artisan Cafe</p>
+                </div>
+                <div class="bg-gray-50 p-8 rounded-2xl hover:shadow-lg transition-all duration-300">
+                    <div class="flex text-yellow-400 mb-4">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="text-gray-700 mb-4">"Their financial analysis helped us identify key areas for improvement. Within six months, we increased our profit margins by 15%."</p>
+                    <p class="font-semibold">Emma Thompson</p>
+                    <p class="text-sm text-gray-600">CFO, Retail Solutions Inc.</p>
+                </div>
+                <div class="bg-gray-50 p-8 rounded-2xl hover:shadow-lg transition-all duration-300">
+                    <div class="flex text-yellow-400 mb-4">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="text-gray-700 mb-4">"Exceptional service! They've been handling our accounts for three years now, and we couldn't be happier with their expertise and attention to detail."</p>
+                    <p class="font-semibold">David Wilson</p>
+                    <p class="text-sm text-gray-600">Director, Construction Plus</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="py-24 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold text-gray-900 mb-4">Frequently Asked Questions</h2>
+                <p class="text-xl text-gray-600">Find answers to common questions about our services</p>
+            </div>
+            <div class="max-w-3xl mx-auto space-y-8">
+                <div class="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-all duration-300">
+                    <h3 class="text-lg font-semibold mb-3">What services do you offer?</h3>
+                    <p class="text-gray-600">We provide comprehensive accounting services including tax planning and preparation, bookkeeping, financial analysis, business advisory, and compliance services. Our solutions are tailored to meet your specific business needs.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-all duration-300">
+                    <h3 class="text-lg font-semibold mb-3">How much do your services cost?</h3>
+                    <p class="text-gray-600">Our pricing varies based on the scope and complexity of services required. We offer flexible packages starting from $250/month for basic bookkeeping. Contact us for a personalized quote based on your needs.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-all duration-300">
+                    <h3 class="text-lg font-semibold mb-3">How often will we meet to discuss my finances?</h3>
+                    <p class="text-gray-600">We schedule regular quarterly reviews with all clients, but we're available for consultation whenever needed. Our team provides monthly reports and updates, and we can arrange additional meetings based on your requirements.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-all duration-300">
+                    <h3 class="text-lg font-semibold mb-3">Do you work with small businesses?</h3>
+                    <p class="text-gray-600">Yes, we work with businesses of all sizes, from startups to established enterprises. Our services are scalable and can be customized to match your business growth stage and requirements.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-all duration-300">
+                    <h3 class="text-lg font-semibold mb-3">What software do you use?</h3>
+                    <p class="text-gray-600">We work with all major accounting software including Xero, MYOB, and QuickBooks. We can adapt to your existing systems or recommend the best solution for your business needs.</p>
+                </div>
             </div>
         </div>
     </section>
 
     <!-- CTA Section -->
-    <section class="py-24 bg-blue-600">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <section id="contact" class="py-24 bg-blue-600 relative overflow-hidden">
+        <div class="absolute inset-0 z-0">
+            <img src="https://images.unsplash.com/photo-1554224154-26032ffc0d07?ixlib=rb-1.2.1&auto=format&fit=crop&w=2000&q=80" class="object-cover w-full h-full opacity-10" alt="Background">
+        </div>
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
             <div class="text-center">
-                <h2 class="text-3xl md:text-4xl font-bold text-white mb-8">Ready to get started?</h2>
-                <a href="#" class="inline-block px-8 py-4 bg-white text-blue-600 rounded-full font-medium hover:bg-gray-100 transition-all duration-200 transform hover:scale-105">
-                    Start Now
+                <h2 class="text-3xl md:text-4xl font-bold text-white mb-8">Ready to transform your business finances?</h2>
+                <p class="text-xl text-white/90 mb-8">Schedule a free consultation with our expert team today.</p>
+                <a href="#" class="inline-block px-8 py-4 bg-white text-blue-600 rounded-full font-medium hover:bg-gray-100 transition-all duration-300 transform hover:scale-105 hover:shadow-lg">
+                    Book Consultation
                 </a>
             </div>
         </div>
@@ -94,17 +241,76 @@
                 <div>
                     <h3 class="text-white text-lg font-semibold mb-4">Company</h3>
                     <ul class="space-y-2">
-                        <li><a href="#" class="hover:text-white transition-colors duration-200">About</a></li>
-                        <li><a href="#" class="hover:text-white transition-colors duration-200">Careers</a></li>
-                        <li><a href="#" class="hover:text-white transition-colors duration-200">Contact</a></li>
+                        <li><a href="#about" class="hover:text-white transition-colors duration-300">About</a></li>
+                        <li><a href="#features" class="hover:text-white transition-colors duration-300">Services</a></li>
+                        <li><a href="#contact" class="hover:text-white transition-colors duration-300">Contact</a></li>
                     </ul>
                 </div>
-                <!-- Repeat for other footer columns -->
+                <div>
+                    <h3 class="text-white text-lg font-semibold mb-4">Resources</h3>
+                    <ul class="space-y-2">
+                        <li><a href="https://test-acc-12349.github.io/albert-park-accounting-services-2025-04-24-66i61/blog.html" class="hover:text-white transition-colors duration-300">Blog</a></li>
+                        <li><a href="#faq" class="hover:text-white transition-colors duration-300">FAQ</a></li>
+                        <li><a href="#testimonials" class="hover:text-white transition-colors duration-300">Testimonials</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-white text-lg font-semibold mb-4">Legal</h3>
+                    <ul class="space-y-2">
+                        <li><a href="https://test-acc-12349.github.io/albert-park-accounting-services-2025-04-24-66i61/privacy.html" class="hover:text-white transition-colors duration-300">Privacy Policy</a></li>
+                        <li><a href="https://test-acc-12349.github.io/albert-park-accounting-services-2025-04-24-66i61/terms.html" class="hover:text-white transition-colors duration-300">Terms of Service</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-white text-lg font-semibold mb-4">Connect</h3>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-400 hover:text-white transition-colors duration-300">
+                            <i class="fab fa-linkedin text-xl"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white transition-colors duration-300">
+                            <i class="fab fa-twitter text-xl"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white transition-colors duration-300">
+                            <i class="fab fa-facebook text-xl"></i>
+                        </a>
+                    </div>
+                </div>
             </div>
             <div class="border-t border-gray-800 mt-12 pt-8 text-sm text-gray-400">
-                <p>&copy; 2024 Company Name. All rights reserved.</p>
+                <p>&copy; 2024 Albert Park Accounting Services. All rights reserved.</p>
             </div>
         </div>
     </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const mobileMenuButton = document.querySelector('header nav .mobile-menu-button');
+            const mobileMenu = document.querySelector('header nav .mobile-menu');
+            
+            if (mobileMenuButton && mobileMenu) {
+                mobileMenuButton.addEventListener('click', () => {
+                    mobileMenu.classList.toggle('hidden');
+                    const icon = mobileMenuButton.querySelector('i');
+                    if (icon) {
+                        icon.classList.toggle('fa-bars');
+                        icon.classList.toggle('fa-times');
+                    }
+                });
+
+                const mobileMenuLinks = mobileMenu.querySelectorAll('a');
+                mobileMenuLinks.forEach(link => {
+                    link.addEventListener('click', () => {
+                        mobileMenu.classList.add('hidden');
+                        const icon = mobileMenuButton.querySelector('i');
+                        if (icon) {
+                            icon.classList.remove('fa-times');
+                            icon.classList.add('fa-bars');
+                        }
+                    });
+                });
+            }
+        });
+    </script>
+</body>
 </body>
 </html>
